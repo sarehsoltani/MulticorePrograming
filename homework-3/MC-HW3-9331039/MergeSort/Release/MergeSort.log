@@ -1,0 +1,4 @@
+﻿  Mergesort.cpp
+  Change platform to x64 for more memory.
+  Enable nested parallelism if you wish to have parallel region within parallel region.
+  MergeSort.vcxproj -> E:\VS Project\MergeSort\Release\MergeSort.exe

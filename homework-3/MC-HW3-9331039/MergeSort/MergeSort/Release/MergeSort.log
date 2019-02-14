@@ -1,0 +1,29 @@
+﻿  Mergesort.cpp
+  Change platform to x64 for more memory.
+  Enable nested parallelism if you wish to have parallel region within parallel region.
+  parallel-mergesort-task.cpp
+parallel-mergesort-task.cpp(83): warning #3180: unrecognized OpenMP #pragma
+    	#pragma omp parallel num_threads(4)
+    	        ^
+  
+parallel-mergesort-task.cpp(85): warning #3180: unrecognized OpenMP #pragma
+    		#pragma omp single nowait
+    		        ^
+  
+parallel-mergesort-task.cpp(87): warning #3180: unrecognized OpenMP #pragma
+    			#pragma omp task 
+    			        ^
+  
+parallel-mergesort-task.cpp(89): warning #3180: unrecognized OpenMP #pragma
+    			#pragma omp task
+    			        ^
+  
+parallel-mergesort-task.cpp(92): warning #3180: unrecognized OpenMP #pragma
+    		#pragma omp taskwait
+    		        ^
+  
+  Change platform to x64 for more memory.
+  Enable nested parallelism if you wish to have parallel region within parallel region.
+ipo: : error #11065: E:\VS Project\MergeSort\MergeSort\Release\parallel-mergesort-task.obj : _main already defined in E:\VS Project\MergeSort\MergeSort\Release\Mergesort.obj
+xilink: : error #10014: problem during multi-file optimization compilation (code 1)
+xilink: : error #10014: problem during multi-file optimization compilation (code 1)

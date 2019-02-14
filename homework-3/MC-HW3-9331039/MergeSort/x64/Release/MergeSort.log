@@ -1,0 +1,11 @@
+﻿ipo: : warning #11021: unresolved omp_get_nested
+          Referenced in ipo_732434obj3.obj
+ipo: : warning #11021: unresolved omp_get_max_threads
+          Referenced in ipo_732434obj3.obj
+ipo: : warning #11021: unresolved omp_get_wtime
+          Referenced in ipo_732434obj3.obj
+ipo: : error #11023: Not all components required for linking are present on command line
+ipo_732434obj3.obj : error LNK2019: unresolved external symbol omp_get_wtime referenced in function main
+ipo_732434obj3.obj : error LNK2019: unresolved external symbol omp_get_max_threads referenced in function "void __cdecl check_omp(void)" (?check_omp@@YAXXZ)
+ipo_732434obj3.obj : error LNK2019: unresolved external symbol omp_get_nested referenced in function "void __cdecl check_omp(void)" (?check_omp@@YAXXZ)
+E:\VS Project\MergeSort\x64\Release\MergeSort.exe : fatal error LNK1120: 3 unresolved externals

@@ -1,0 +1,4 @@
+﻿  MergeSort_Section.cpp
+e:\vs project\mergesort\mergesort\mergesort_section.cpp(41): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  MergeSort.vcxproj -> E:\VS Project\MergeSort\Debug\MergeSort.exe
+  MergeSort.vcxproj -> E:\VS Project\MergeSort\Debug\MergeSort.pdb (Full PDB)
